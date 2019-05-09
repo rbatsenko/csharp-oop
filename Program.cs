@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace oop
 {
@@ -6,14 +7,22 @@ namespace oop
     {
         static void Main(string[] args)
         {
-            RetailSalesPerson erik = new RetailSalesPerson("Erik", "Erikson");
-            Console.WriteLine(erik.FullName);
-            erik.Sell();
-            erik.Develop();
+            List<Salesman> salesmen = new List<Salesman>()
+            {
+                new CarSalesman("James", "One"),
+                new CarSalesman("John", "Two"),
+                new RetailSalesPerson("Mike", "Three"),
+            };
 
-            WebDeveloper john = new WebDeveloper("React");
-            john.Code();
-            john.Develop();
+            foreach (var item in salesmen)
+            {
+                ShowMeHowToSell(item);
+            }
+        }
+
+        static void ShowMeHowToSell(Salesman salesman)
+        {
+            salesman.Sell();
         }
     }
 }
