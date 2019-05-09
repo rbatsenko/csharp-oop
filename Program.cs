@@ -6,13 +6,14 @@ namespace oop
     {
         static void Main(string[] args)
         {
-            CarSalesman steveTheSalesman = new CarSalesman("Steve", "Rogers");
-            Console.WriteLine(steveTheSalesman.FullName);
-            steveTheSalesman.Sell();
-
             RetailSalesPerson erik = new RetailSalesPerson("Erik", "Erikson");
             Console.WriteLine(erik.FullName);
             erik.Sell();
+            erik.Develop();
+
+            WebDeveloper john = new WebDeveloper("React");
+            john.Code();
+            john.Develop();
         }
     }
 }
