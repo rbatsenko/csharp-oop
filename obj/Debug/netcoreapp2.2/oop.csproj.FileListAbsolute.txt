@@ -1,0 +1,11 @@
+/Users/rbatsenko/Desktop/Karma/LearnProjects/oop/bin/Debug/netcoreapp2.2/oop.deps.json
+/Users/rbatsenko/Desktop/Karma/LearnProjects/oop/bin/Debug/netcoreapp2.2/oop.runtimeconfig.json
+/Users/rbatsenko/Desktop/Karma/LearnProjects/oop/bin/Debug/netcoreapp2.2/oop.runtimeconfig.dev.json
+/Users/rbatsenko/Desktop/Karma/LearnProjects/oop/bin/Debug/netcoreapp2.2/oop.dll
+/Users/rbatsenko/Desktop/Karma/LearnProjects/oop/bin/Debug/netcoreapp2.2/oop.pdb
+/Users/rbatsenko/Desktop/Karma/LearnProjects/oop/obj/Debug/netcoreapp2.2/oop.csprojAssemblyReference.cache
+/Users/rbatsenko/Desktop/Karma/LearnProjects/oop/obj/Debug/netcoreapp2.2/oop.csproj.CoreCompileInputs.cache
+/Users/rbatsenko/Desktop/Karma/LearnProjects/oop/obj/Debug/netcoreapp2.2/oop.AssemblyInfoInputs.cache
+/Users/rbatsenko/Desktop/Karma/LearnProjects/oop/obj/Debug/netcoreapp2.2/oop.AssemblyInfo.cs
+/Users/rbatsenko/Desktop/Karma/LearnProjects/oop/obj/Debug/netcoreapp2.2/oop.dll
+/Users/rbatsenko/Desktop/Karma/LearnProjects/oop/obj/Debug/netcoreapp2.2/oop.pdb
