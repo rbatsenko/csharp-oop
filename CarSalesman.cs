@@ -1,21 +1,13 @@
 using System;
 
-public class CarSalesman {
-  private string _firstName;
-  private string _lastName;
-
-  public string FullName {
-    get {
-      return string.Format("{0} {1}", this._firstName, this._lastName);
-    }
+public class CarSalesman : Salesman
+{
+  public CarSalesman(string firstName, string lastName) : base(firstName, lastName)
+  {
   }
 
-  public CarSalesman( string firstName, string lastName) {
-    this._firstName = firstName;
-    this._lastName = lastName;
-  }
-
-  public void Sell() {
-    Console.WriteLine(string.Format("Hi, my name is {0}. I would recommend You to by this car.", this.FullName));
+  public override void Sell()
+  {
+    Console.WriteLine(String.Format("Hi my name is {0}, I recommend You to buy this car!", this.FullName));
   }
 }
